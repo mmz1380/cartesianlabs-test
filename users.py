@@ -142,7 +142,7 @@ if __name__ == '__main__':
         users = []
 
         # Loop over cities to fetch users from GitHub
-        for index, row in city_user_df[:50].iterrows():
+        for index, row in city_user_df[:100].iterrows():
             login = row['login']
 
             print(f"Fetched user : {login}")
