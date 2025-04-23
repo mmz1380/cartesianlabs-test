@@ -7,7 +7,7 @@ from sqlalchemy import text
 import psycopg2.extras
 
 # GitHub Personal Access Token (replace with your own)
-TOKEN = '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'
+TOKEN = 'your_key'
 HEADERS = {'Authorization': f'token {TOKEN}'}
 
 # GitHub API Base URL
