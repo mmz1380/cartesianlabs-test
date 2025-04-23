@@ -1,0 +1,6 @@
+### GET request to example server
+GET https://api.github.com/rate_limit
+'Authorization': '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'}
+
+
+###
